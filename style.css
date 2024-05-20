@@ -1,7 +1,64 @@
 .{
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: "Dela Gothic One", sans-serif;
+    box-sizing: border-box;
 }
 
-hr {
-    border-style: dotted;
+.header {
+
+    font-family: "Dela Gothic One", sans-serif;
+    text-align: center;
+    background-color: grey;
+    height: 100px;
+
+}
+
+body {
+    background-image: url(pexels-heather-green-1125370-20137647.jpg);
+}
+
+article {
+    font-family: "Dela Gothic One", sans-serif;
+    border: 2px dotted black;
+    padding: 7px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    column-gap: 10px;
+    text-align: left;
+}
+
+.rover {
+    grid-column: 1/2;
+    text-align: justify;
+}
+
+.euskera {
+
+    grid-column: 2/3;
+    text-align: justify;
+}
+
+.bocadillo {
+
+    grid-column: 3/4;
+    text-align: justify;
+}
+
+.bares {
+    grid-column: 4/5;
+    text-align: justify;
+}
+
+p {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 200;
+    font-style: italic;
 }
